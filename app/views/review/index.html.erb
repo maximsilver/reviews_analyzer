@@ -1,0 +1,24 @@
+<h1>Translate review</h1>
+
+<table>
+  <tr>
+    <th>Product ID</th>
+    <th>User ID</th>
+    <th>Profile Name</th>
+    <th>Summary</th>
+    <th>Text</th>
+  </tr>
+  <tr>
+    <td><%= @first_review.product_id %></td>
+    <td><%= @first_review.user_id %></td>
+    <td><%= @first_review.profile_name %></td>
+    <td><%= @first_review.summary %></td>
+    <td><%= @first_review.text %></td>
+  </tr>
+</table>
+
+
+<p><strong>Translate Summary:</strong></p>
+<p><%= @translate_review.first %></p>
+<p><strong>Translate Text:</strong></p>
+<p><%= @translate_review.last %></p>

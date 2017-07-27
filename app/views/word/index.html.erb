@@ -1,0 +1,9 @@
+<h1>Top used words</h1>
+
+<p><strong>Words:</strong></p>
+<% @top_words.each do |word| %>
+  <p>
+    <%= word.first %>
+    <%= word.last %>
+  </p>
+<% end %>
